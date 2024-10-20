@@ -9,6 +9,7 @@ screenW = 600
 screenH = 400
 
 surface = pg.display.set_mode((screenW, screenH))
+pg.display.set_caption("Titulo")
 image = pg.image.load('resources\\kirby.png')
 image = pg.transform.scale(image, (image.get_width()*4, image.get_height()*4))
 
