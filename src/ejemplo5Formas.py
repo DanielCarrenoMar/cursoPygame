@@ -68,7 +68,7 @@ def formas():
             elif event.key == pg.K_d:
                 color = (20, 0, 200)
 
-    pg.draw.rect(surface, color, (200, 50, 200, 200))
+    pg.draw.rect(surface, color, (200, 50, 200, 200)) # (X, Y, ancho, alto)
     #pg.draw.circle(surface, color, (300, 150), 100)
     #pg.draw.line(surface, color, (200, 50), (300, 200), 4)
 
